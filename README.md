@@ -1,6 +1,6 @@
-# Rinha de Backend 2026 — luizlzag
+# Rinha de Backend 2026 - luizlzag
 
-Solução para a [Rinha de Backend 2026](https://github.com/zanfranceschi/rinha-de-backend-2026) — detecção de fraude em transações de cartão usando busca vetorial.
+Solução para a [Rinha de Backend 2026](https://github.com/zanfranceschi/rinha-de-backend-2026) - detecção de fraude em transações de cartão usando busca vetorial.
 
 ## Stack
 
@@ -24,7 +24,7 @@ A detecção de fraude usa **IVF-Flat** (Inverted File Index com brute-force por
 1. 3 milhões de vetores de referência (14 dimensões) são clusterizados em **K=500 partições** durante o `docker build`
 2. A cada request, o payload é vetorizado em 14 dimensões normalizadas
 3. Os **10 clusters mais próximos** são selecionados e o brute-force encontra os **5 vizinhos mais próximos**
-4. `fraud_score = fraudes_entre_5 / 5` — aprovado se `score < 0.6`
+4. `fraud_score = fraudes_entre_5 / 5` aprovado se `score < 0.6`
 
 ## Budget de recursos
 
