@@ -6,7 +6,8 @@
     "outDir": "dist",
     "rootDir": ".",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*", "scripts/**/*"]
 }
