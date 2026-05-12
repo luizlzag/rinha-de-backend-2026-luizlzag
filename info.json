@@ -1,0 +1,7 @@
+{
+    "participants": ["Luiz Cruz"],
+    "social": ["https://github.com/luizlzag"],
+    "source-code-repo": "https://github.com/luizlzag/rinha-de-backend-2026-luizlzag",
+    "stack": ["nodejs", "typescript", "fastify", "nginx", "undici"],
+    "open_to_work": false
+}
