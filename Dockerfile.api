@@ -8,6 +8,6 @@ RUN npm run build
 FROM node:22-alpine
 WORKDIR /app
 ENV NODE_ENV=production
-COPY --from=builder /app/dist/api ./dist/api
+COPY --from=builder /app/dist/src/api ./dist/src/api
 COPY resources/mcc_risk.json resources/normalization.json ./resources/
-CMD ["node", "dist/api/server.js"]
+CMD ["node", "dist/src/api/server.js"]
