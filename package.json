@@ -1,0 +1,22 @@
+{
+  "name": "rinha-de-backend-2026-luizlzag",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:index": "node dist/scripts/build-index.js",
+    "start:api": "node dist/api/server.js",
+    "start:vector": "node dist/vector/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "undici": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  }
+}
