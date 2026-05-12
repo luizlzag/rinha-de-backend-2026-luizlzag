@@ -38,8 +38,8 @@ A detecção de fraude usa **IVF-Flat** (Inverted File Index com brute-force por
 
 ## Branches
 
-- `main` — código-fonte
-- `submission` — apenas `docker-compose.yml` e `nginx.conf` com imagens publicadas
+- `main` - código-fonte
+- `submission` - apenas `docker-compose.yml` e `nginx.conf` com imagens publicadas
 
 ## Licença
 
